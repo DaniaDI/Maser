@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="update_profile.php" method="POST">
+
+        <div>
+            <label for="user_password">Password:</label>
+            <input type="password" id="user_password" name="user_password" maxlength="15" required>
+        </div>
+
+        <div>
+            <label for="languages">Favorite Languages:</label>
+            <select name="languages[]" id="languages" multiple>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="php">PHP</option>
+            </select>
+
+        </div>
+        
+        <button type="submit">Update Profile</button>
+        <!-- or <input type="button" value="submit"> -->
+    </form>
+
+    <hr>
+      <form action="update_profile.php" method="POST">
+
+        <div>
+            <label for="user_password">Password:</label>
+            <input type="password" id="user_password" name="user_password" maxlength="15" required>
+        </div>
+    <div>
+            <label>Favorite Languages:</label><br>
+
+            <input type="checkbox" id="lang_html" name="languages[]" value="html">
+            <label for="lang_html">HTML</label><br>
+
+            <input type="checkbox" id="lang_css" name="languages[]" value="css">
+            <label for="lang_css">CSS</label><br>
+
+            <input type="checkbox" id="lang_js" name="languages[]" value="javascript">
+            <label for="lang_js">JavaScript</label><br>
+
+            <input type="checkbox" id="lang_py" name="languages[]" value="python">
+            <label for="lang_py">Python</label><br>
+
+            <input type="checkbox" id="lang_php" name="languages[]" value="php">
+            <label for="lang_php">PHP</label>
+        </div>
+        <button type="submit">Update Profile</button>
+        <!-- or <input type="button" value="submit"> -->
+    </form>
+
+
+</body>
+
+</html>
