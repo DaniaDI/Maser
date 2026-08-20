@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davinci | Home</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <!-- ===== Header & Fixed Navigation ===== -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><i class="fas fa-mug-hot"></i><span>Davinci</span></a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><span></span><span></span><span></span></label>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero">
+        <div class="container hero-content">
+            <span class="hero-tag">Welcome to Brew Haven</span>
+            <h1>Life Begins After <span>Coffee</span></h1>
+            <p>Hand-crafted drinks, freshly baked pastries, and a cozy corner that feels like home. Discover your new favorite café.</p>
+            <div class="hero-buttons">
+                <a href="menu.html" class="btn btn-primary">View Our Menu</a>
+                <a href="about.html" class="btn btn-light">Our Story</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Featured Drinks (Cards + Grid) ===== -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Customer <span>Favorites</span></h2>
+            <p class="section-subtitle">The drinks our regulars can't stop ordering — crafted daily by our award-winning baristas.</p>
+
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1509042239860-f550ce91d85e?auto=format&fit=crop&w=800&q=80" alt="Caramel Latte">
+                    </div>
+                    <div class="card-body">
+                        <h3>Caramel Latte</h3>
+                        <p>Velvety espresso blended with steamed milk and house-made caramel, finished with silky foam.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$4.75</span>
+                            <a href="menu.html" class="card-link">Order <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?auto=format&fit=crop&w=800&q=80" alt="Espresso Supreme">
+                    </div>
+                    <div class="card-body">
+                        <h3>Espresso Supreme</h3>
+                        <p>A bold double shot of our signature roast — rich crema, deep flavor, zero compromise.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$3.00</span>
+                            <a href="menu.html" class="card-link">Order <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="card-img">
+                        <img src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=800&q=80" alt="Cold Brew Bliss">
+                    </div>
+                    <div class="card-body">
+                        <h3>Cold Brew Bliss</h3>
+                        <p>Slow-steeped for 18 hours and served over ice for an ultra-smooth, refreshing kick.</p>
+                        <div class="card-footer">
+                            <span class="card-price">$4.25</span>
+                            <a href="menu.html" class="card-link">Order <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Why Choose Us (Flexbox/Grid Features) ===== -->
+    <section class="section features">
+        <div class="container">
+            <h2 class="section-title">Why Choose Brew Haven</h2>
+            <p class="section-subtitle">More than just coffee — it's an experience.</p>
+
+            <div class="features-grid">
+                <div class="feature">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Ethically Sourced</h3>
+                    <p>Beans bought directly from sustainable farms in Colombia, Ethiopia, and Brazil.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-fire"></i>
+                    <h3>Roasted Fresh Daily</h3>
+                    <p>We roast in small batches every morning so your cup is never anything less than fresh.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-award"></i>
+                    <h3>Master Baristas</h3>
+                    <p>Our team is trained and certified by national latte-art champions.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-heart"></i>
+                    <h3>Made With Love</h3>
+                    <p>Every drink is prepared with care, precision, and a smile — just for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Story Teaser ===== -->
+    <section class="section">
+        <div class="container story-grid">
+            <div class="story-img">
+                <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=80" alt="Inside Brew Haven café">
+            </div>
+            <div class="story-text">
+                <h2>Crafting Moments, <span>One Cup</span> at a Time</h2>
+                <p>Since 2015, Brew Haven has been the neighborhood's cozy corner — a place where students study, friends laugh, and ideas are born over a warm cup.</p>
+                <p>What started as a tiny two-table café is now a beloved local brand, but our promise never changed: honest coffee, warm people, and a seat that's always waiting for you.</p>
+                <a href="about.html" class="btn btn-outline">Learn More About Us</a>
+                <div class="story-stats">
+                    <div class="stat"><h3>10+</h3><p>Years of Experience</p></div>
+                    <div class="stat"><h3>50K</h3><p>Cups Served</p></div>
+                    <div class="stat"><h3>4.9</h3><p>Customer Rating</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA Banner ===== -->
+    <section class="cta-banner">
+        <h2>Craving a Perfect Cup?</h2>
+        <p>Visit us today or explore our full menu of hand-crafted drinks and fresh bakes.</p>
+        <a href="menu.html" class="btn btn-light">Browse Full Menu</a>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="index.html" class="footer-logo"><span>Davinci</span></a>
+                <p>Serving hand-crafted coffee and warm moments since 2015. Every cup tells a story of passion and quality.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+            <div>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Our Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Opening Hours</h3>
+                <ul>
+                    <li>Mon - Fri: 7am - 9pm</li>
+                    <li>Saturday: 8am - 10pm</li>
+                    <li>Sunday: 8am - 6pm</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Get In Touch</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 12 Bean Street, Coffee City</li>
+                    <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                    <li><i class="fas fa-envelope"></i> hello@brewhaven.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>All Rights Reserved &copy; 2026 Brew Haven.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
